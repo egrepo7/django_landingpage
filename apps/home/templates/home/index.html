@@ -1,0 +1,15 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  {% load staticfiles %}
+  <link rel="stylesheet" href="{% static 'home/style.css' %}">
+  <title>index</title>
+</head>
+<body>
+
+  <h1>Welcome to my First Django App</h1>
+  <p>My name is {{ name }}</p>
+  <p>I like {{ hobby }}</p>
+  <p>My favorite language is {{ language }}</p>
+</body>
+</html>
